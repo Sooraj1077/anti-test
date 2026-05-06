@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière | Fine Dining</title>
+    <meta name="description" content="Experience culinary excellence at Lumière, a premium fine-dining restaurant.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Lumière</a>
+            <ul class="nav-links">
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#reservation" class="btn-primary nav-btn">Book a Table</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-links">
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#reservation" class="btn-primary">Book a Table</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal fade-up">
+            <h1 class="hero-title">An Exquisite Culinary Journey</h1>
+            <p class="hero-subtitle">Discover the art of fine dining in a breathtaking ambiance.</p>
+            <div class="hero-buttons">
+                <a href="#reservation" class="btn-primary">Make a Reservation</a>
+                <a href="#menu" class="btn-secondary">Explore Menu</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-text reveal fade-right">
+                <h2 class="section-title">Our Philosophy</h2>
+                <p>At Lumière, we believe that dining is not merely about sustenance, but an experience that engages all the senses. Our culinary team meticulously curates each dish, blending traditional techniques with modern innovation to create symphonies of flavor.</p>
+                <p>Sourced from the finest local purveyors and international artisans, our ingredients speak for themselves in every bite.</p>
+                <a href="#about" class="read-more">Discover More <span>&rarr;</span></a>
+            </div>
+            <div class="about-image-wrapper reveal fade-left">
+                <div class="about-image-card">
+                    <img src="assets/dish1.png" alt="Signature Dish" class="about-img">
+                </div>
+                <div class="experience-badge">
+                    <span class="number">15</span>
+                    <span class="text">Years of<br>Excellence</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="menu-header reveal fade-up">
+                <h2 class="section-title text-center">Seasonal Tasting Menu</h2>
+                <p class="section-subtitle">A curated selection of our finest creations</p>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/dish2.png" alt="Pan-Seared Scallops" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3>Pan-Seared Scallops</h3>
+                            <span class="price">$32</span>
+                        </div>
+                        <p class="menu-desc">Hokkaido scallops, cauliflower purée, brown butter caper sauce, micro-cilantro.</p>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="menu-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/dish1.png" alt="Wagyu Tenderloin" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3>A5 Wagyu Tenderloin</h3>
+                            <span class="price">$120</span>
+                        </div>
+                        <p class="menu-desc">Truffle pomme purée, charred asparagus, rich bordelaise reduction.</p>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="menu-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/dish3.png" alt="Valrhona Chocolate Lava" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3>Valrhona Chocolate Lava</h3>
+                            <span class="price">$24</span>
+                        </div>
+                        <p class="menu-desc">Molten dark chocolate, gold leaf, raspberry coulis, Madagascar vanilla bean ice cream.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-action reveal fade-up text-center">
+                <a href="#" class="btn-secondary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation/Contact Section -->
+    <section class="reservation" id="reservation">
+        <div class="container reservation-container">
+            <div class="reservation-content reveal fade-right">
+                <h2 class="section-title">Reserve Your Experience</h2>
+                <p>Join us for an unforgettable evening. We recommend booking your table at least two weeks in advance.</p>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <strong>Location</strong>
+                        <p>123 Culinary Avenue, Metro City</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>Hours</strong>
+                        <p>Wed - Sun: 5:00 PM - 11:00 PM</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>Contact</strong>
+                        <p>reservations@lumiere.com<br>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="reservation-form-wrapper reveal fade-left">
+                <form class="reservation-form">
+                    <h3>Book a Table</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Guests</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5+">5+ People</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary w-100">Confirm Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h2>Lumière</h2>
+                <p>Redefining fine dining through passion and elegance.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lumière Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
